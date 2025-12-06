@@ -1,0 +1,16 @@
+! Title: Free of securiy tools
+! Description: Blocks common security tools for debugging purpose.
+! Syntax: AdGuard Home/DNS
+! 
+||endpoint.security.microsoft.com^
+! CyberArk
+||epm.cyberark.com^
+! Qualys
+||apps.qualys.ca^
+! Crowdtrsike
+||cloudsink.net^
+||crowdstrike.mil^
+! Qoash / Qstbroker
+||qostodian.com^
+! DTEX DLP
+||desjardins.dtexservices.com^
