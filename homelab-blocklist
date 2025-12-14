@@ -2,7 +2,7 @@
 ! Description: Block custom domains for debugging purpose.
 ! Syntax: AdGuard Home/DNS
 
-! Block non-listed tracking domains
+! Block non-listed ads and tracking domains
 ||tracking.molotov.tv^
 ||telemetry.intel.com^
 ||analytics.xcal.tv^
