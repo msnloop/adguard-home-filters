@@ -19,6 +19,7 @@
 #
 ! Allow Cloudflare DNS for Admin Devices
 @@||dns.cloudflare.com^$important,ctag=user_admin
+@@||cloudflare-dns.com^$important,ctag=user_admin
 #
 ! Allow NextDNS for Admin Devices
 @@||nextdns.io^$important,ctag=user_admin
