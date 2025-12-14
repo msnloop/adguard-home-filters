@@ -1,0 +1,45 @@
+#
+! To fully block a domain with ALL subdomains and TLDs use the following rule
+! ||domainhostname.*^$important,client=CLIENTNAME
+! To fully block ANY part of the domain name you must wildcard the rule as follows
+! ||*domainhostname*.*^$important,client=CLIENTNAME
+#
+! Block Malicious TLDs
+||zip^$important
+||mov^$important
+#
+! Block Country TLDs
+||af^$important
+||ba^$important
+||br^$important
+||by^$important
+||cd^$important
+||cf^$important
+||cn^$important
+||cu^$important
+||et^$important
+||hk^$important
+||ht^$important
+||in^$important
+||iq^$important
+||ir^$important
+||kg^$important
+||kp^$important
+||lb^$important
+||ly^$important
+||ml^$important
+||mm^$important
+||ng^$important
+||ni^$important
+||ro^$important
+||ru^$important
+||sd^$important
+||so^$important
+||ss^$important
+||sy^$important
+||tr^$important
+||ve^$important
+||vn^$important
+||ye^$important
+||zw^$important
+#
