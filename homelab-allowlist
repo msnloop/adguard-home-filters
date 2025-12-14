@@ -11,13 +11,11 @@
 @@||protonvpn.com^$important
 @@||protonvpn.net^$important
 @@||proton.me^$important
+@@||adguard-dns.com^$important
+@@||adguard-dns.io^$important
 #
 ! Allow Personal Domains
 @@||msnloop.com^$important
-#
-! Allow AdGuard DNS for Admin Devices
-@@||adguard-dns.com^$important,ctag=user_admin
-@@||adguard-dns.io^$important,ctag=user_admin
 #
 ! Allow Cloudflare DNS for Admin Devices
 @@||dns.cloudflare.com^$important,ctag=user_admin
