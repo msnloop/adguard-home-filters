@@ -2,27 +2,17 @@
 ! Description: Block custom domains for debugging purpose.
 ! Syntax: AdGuard Home/DNS
 
-#
-! Block Malicious TLDs
-||zip^$important
-||mov^$important
-#
-! Block Country TLDs
-||af^$important
-#
-! Block conversation box
-||chatango.com^
-#
-! Block CCleaner check
-||license-api.ccleaner.com^
-||avast.com^
-#
 ! Block non-listed tracking domains
 ||tracking.molotov.tv^
 ||telemetry.intel.com^
 ||analytics.xcal.tv^
 ||graph.facebook.com^
 ||connect.facebook.net^
+||chatango.com^
+#
+! Block CCleaner tracking
+||license-api.ccleaner.com^
+||avast.com^
 #
 ! Security tools for debugging
 ||epm.cyberark.com^
@@ -32,6 +22,7 @@
 ||qostodian.com^
 ||dtexservices.com^
 
-@@||protonvpn.com^$important
-@@||proton.me^$important
-@@||adguard-dns.com^$important
+! Block Malicious TLDs
+||zip^$important
+||mov^$important
+#
