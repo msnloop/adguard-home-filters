@@ -1,3 +1,7 @@
+! Title: Homelab Blocklist
+! Description: Block custom domains for debugging purpose.
+! Syntax: AdGuard Home/DNS
+
 #
 ! To fully block a domain with ALL subdomains and TLDs use the following rule
 ! ||domainhostname.*^$important,client=CLIENTNAME
