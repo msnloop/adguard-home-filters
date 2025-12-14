@@ -1,0 +1,64 @@
+#
+! Global Allowlist
+@@||tags.tiqcdn.com^$important
+@@||centricabritishgas.sc.omtrdc.net^$important
+@@||britishairways.sc.omtrdc.net^$important
+@@||ipinfo.io^$important
+#
+! Allow Personal Domains
+@@||knightfall.tech^$important
+#
+! Allow AI Sites for Admin Devices
+@@||chatgpt.com^$important,ctag=user_admin
+@@||oaistatic.com^$important,ctag=user_admin
+@@||oaiusercontent.com^$important,ctag=user_admin
+@@||openai.com^$important,ctag=user_admin
+@@||copilot.microsoft.com^$important,ctag=user_admin
+#
+! Allow AdGuard DNS for Admin Devices
+@@||adguard-dns.com^$important,ctag=user_admin
+@@||adguard-dns.io^$important,ctag=user_admin
+#
+! Allow NextDNS for Admin Devices
+@@||nextdns.io^$important,ctag=user_admin
+#
+! Allow Proton for Admin Devices
+@@||getproton.me^$important,ctag=user_admin
+@@||vpn-api.proton.my^$important,ctag=user_admin
+@@||protonstatus.com^$important,ctag=user_admin
+@@||protonvpn.ch^$important,ctag=user_admin
+@@||protonvpn.com^$important,ctag=user_admin
+@@||protonvpn.net^$important,ctag=user_admin
+@@||proton.me^$important,ctag=user_admin
+#
+! Allow TOR for Admin Devices
+@@||torproject.org^$important,ctag=user_admin
+#
+! Allow Mullvad for Admin Devices
+@@||mullvad.net^$important,ctag=user_admin
+#
+! Allow WireGuard for Admin Devices
+@@||wireguard.com^$important,ctag=user_admin
+#
+! Allow Microsoft Family Safety Reporting for Select Microsoft Devices
+@@||events.data.microsoft.com^$important,client=jodie-laptop|caitlin-laptop|batbox
+#
+! Allow Location Services for Windows OS Devices
+@@||inference.location.live.net^$important,ctag=os_windows
+#
+! Allow Unrestricted Google, DuckDuckGo and Bing Search for Admin Devices
+@@www.google.com^$important,ctag=user_admin
+@@www.google.co.uk^$important,ctag=user_admin
+@@duckduckgo.com^$important,ctag=user_admin
+@@www.duckduckgo.com^$important,ctag=user_admin
+@@start.duckduckgo.com^$important,ctag=user_admin
+@@www.bing.com^$important,ctag=user_admin
+@@edgeservices.bing.com^$important,ctag=user_admin
+#
+! Allow Unrestricted YouTube for Regular and Admin Devices
+@@www.youtube.com^$important,ctag=user_regular|user_admin
+@@m.youtube.com^$important,ctag=user_regular|user_admin
+@@youtubei.googleapis.com^$important,ctag=user_regular|user_admin
+@@youtube.googleapis.com^$important,ctag=user_regular|user_admin
+@@www.youtube-nocookie.com^$important,ctag=user_regular|user_admin
+#
